@@ -15,7 +15,6 @@
                 console.log("readyState: "+this.readyState+" status: "+this.status);
                 if (this.readyState == 4 && this.status == 200) {
                     document.getElementById("text").innerHTML = this.responseText;
-                // document.getElementById("demo").innerHTML = this.responseText;
                 }
                 };
                 xhttp.open("GET", "Lab4_3Text", true);
