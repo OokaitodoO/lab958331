@@ -9,7 +9,7 @@
     <input type="text" id="messageInput" />
     <button onclick="sendMessage()">Send</button>
     <script>
-        const socket = new WebSocket('ws://localhost:8080');
+        const socket = new WebSocket('ws://ookaitodoo.github.io/localhost:8080');
         socket.addEventListener('open', () => {
             console.log('Connected to WebSocket server.');
         });
